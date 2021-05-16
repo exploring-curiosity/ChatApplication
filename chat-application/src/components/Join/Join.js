@@ -8,8 +8,10 @@ const Join = () => {
         <div className='JoinOuter'>
             <div className = 'JoinInner'>
                 <h1 className='heading'>Join</h1>
-                <div><input type='text' placeholder='Name' id='name' name='name' autoComplete='off' value={name} onChange={(e)=>{setName(e.target.value)}} /></div>
-                <div><input type='text' placeholder='Room' id='room' name='room' autoComplete='off' value={room} onChange={(e)=>{setRoom(e.target.value)}} /></div>
+                <input type='text' placeholder='Name' id='name' name='name' autoComplete='off' value={name} onChange={(e)=>{setName(e.target.value)}} />
+                <br />
+                <input type='text' placeholder='Room' id='room' name='room' autoComplete='off' value={room} onChange={(e)=>{setRoom(e.target.value)}} />
+                <br />
                 <Link onClick={(e)=>(!name || !room)?e.preventDefault():null} to={`/chat?name=${name}&room=${room}`}>
                     <button className='joinbutton' type='submit'>Sign In</button>
                 </Link>
