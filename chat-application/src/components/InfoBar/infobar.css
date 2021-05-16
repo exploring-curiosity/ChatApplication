@@ -1,0 +1,19 @@
+.leftinner{
+    position:absolute;
+    background: rgb(42, 161, 190);
+    width:100%;
+    height:8%;
+}
+.leftinner h3{
+    position: relative;
+    transform: translate(3.5%,-160%);
+}
+.onlineicon{
+    transform: translate(200%,50%);
+}
+.rightinner{
+    background: rgb(42, 161, 190);
+    position: absolute;
+    right:2%;
+    top:1.5%;
+}

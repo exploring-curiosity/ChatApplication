@@ -1,0 +1,9 @@
+.messageArea{
+    position: absolute;
+    transform: translateY(6%);
+    width:99%;
+    height:80%;
+    padding-left:10px;
+    padding-top:10px;
+    overflow-x:hidden;
+}

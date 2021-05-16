@@ -1,0 +1,70 @@
+.JoinOuter{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: rgb(71, 59, 59);
+    width: 40%;
+    height:40%;
+    padding: 20px;
+}
+.JoinInner{
+    border-radius: 50px;
+    border:2px solid wheat;
+    width:80%;
+    height:70%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: wheat;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+#name{
+    position: absolute;
+    left:50%;
+    top:30%;
+    transform: translateX(-50%);
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid  rgb(71, 59, 59) ;
+    font-size: large;
+    color:rgb(71, 59, 59) ;
+}
+#room{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%);
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid  rgb(71, 59, 59) ;
+    font-size: large;
+    color:rgb(71, 59, 59) ;
+}
+.joinbutton{
+    position:absolute;
+    left:50%;
+    top:70%;
+    transform: translateX(-50%);
+    width: 20%;
+    height:15%;
+    border:2px solid  rgb(71, 59, 59) ;
+    background:none;
+    color: rgb(71, 59, 59) ;
+    font-size: large;
+    transition: 0.8s;
+}
+.joinbutton:hover{
+    color:wheat;
+    background: rgb(71, 59, 59);
+}
+
