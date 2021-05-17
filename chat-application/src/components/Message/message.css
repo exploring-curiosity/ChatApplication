@@ -1,12 +1,16 @@
 .message{
+    position: inherit;
     width:70%;
     display: flex;
-    margin-top: 2%;
-    margin-bottom: 1%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .senttext{
     padding-left: 2%;
     color:rgb(121, 116, 110);
+    position: inherit;
+    transform: translateY(30%);
 }
 .messageBox{
     background:rgba(165, 155, 155, 0.37);
@@ -17,15 +21,18 @@
     text-overflow: ellipsis;
 }
 .pr{
-    padding-right: 2%;
+  padding-right: 2%;
 }
 .justifyEnd{
     position:relative;
-    right:-30%;
+    left:27%;
 }
 .backgroundBlue{
     background:  rgb(42, 161, 190);
     color:white;
+}
+.msgtext{
+  padding: 10px;
 }
 ::-webkit-scrollbar {
     width: 7px;
@@ -45,4 +52,12 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+  @media only screen and (min-width:768px){
+    
+  }
+  
+  @media only screen and (min-width:976px){
+  
   }

@@ -21,7 +21,6 @@ const Chat = () => {
             "transports" : ["websocket"]
         };
         socket = io(ENDPOINT,connectionOptions);
-        console.log(socket);
         setName(name);
         setRoom(room);
 
@@ -44,15 +43,12 @@ const Chat = () => {
             socket.emit('sendMessage',message,()=>setMessage(''));
         }
     }
-    console.log(message,messages);
     return ( 
-        <div className='OuterChat'>
             <div className='chat'>
                 <InfoBar room ={room}/>
                 <Messages messages={messages} name={name}/>
                 <Input message={message} setMessage={setMessage} sendMessage={sendMessage}/>
             </div>
-        </div> 
     );
 }
  

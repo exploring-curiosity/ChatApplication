@@ -1,19 +1,41 @@
-.leftinner{
-    position:absolute;
-    background: rgb(42, 161, 190);
+.infobar{
+    position:relative;
     width:100%;
-    height:8%;
+    height:10%;
+    background: rgb(42, 161, 190);
+    display:flex;
+}
+.leftinner{
+    position:relative;
+    width:50%;
+    height:100%;
+    display: flex;
 }
 .leftinner h3{
     position: relative;
-    transform: translate(3.5%,-160%);
+    width:30%;
+    height:30%;
+    position: relative;
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
 }
 .onlineicon{
-    transform: translate(200%,50%);
+    width: 5%;
+    height:15%;
+    display: block;
+    position: relative;
+    top:50%;
+    left:5%;
+    transform:translateY(-50%);
 }
 .rightinner{
-    background: rgb(42, 161, 190);
-    position: absolute;
-    right:2%;
-    top:1.5%;
+    position: relative;
+    width:50%;
+    height:100%;
+}
+.closeIcon{
+    position: relative;
+    left:85%;
+    top:30%;
 }

@@ -76,3 +76,24 @@
     
 }
 
+@media only screen and (min-width:768px){
+    .JoinOuter{
+        width: 70%;
+        height:70%;
+        position: relative;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media only screen and (min-width:976px){
+    .JoinOuter{
+        width: 30% ;
+        height:50%;
+        position: relative;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+}
