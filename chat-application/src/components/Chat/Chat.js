@@ -11,7 +11,7 @@ const Chat = () => {
     const [room,setRoom] = useState('');
     const [messages,setMessages] = useState([]);
     const [message,setMessage] = useState('');
-    const ENDPOINT = '192.168.0.100:5000';
+    const ENDPOINT = 'https://curiositychat.herokuapp.com/';
     useEffect(()=>{
         const {name,room} =queryString.parse(window.location.search);
         var connectionOptions =  {
