@@ -33,6 +33,7 @@ const Chat = () => {
     },[ENDPOINT]);
     useEffect(()=>{
         socket.on('message',(message)=>{
+            console.log('message');
             setMessages([...messages,message]);
         })
         return() => {

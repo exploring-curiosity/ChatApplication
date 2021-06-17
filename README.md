@@ -1,6 +1,6 @@
 # ChatApplication
 
-Deployed a Realtime Chat Application
+Deployed a Realtime Instant Chat Application
 
 Tech Used:
 REACT JS
