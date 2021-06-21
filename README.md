@@ -1,5 +1,4 @@
 # ChatApplication
-
 Deployed a Realtime Instant Chat Application
 
 Tech Used:
